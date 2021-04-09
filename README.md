@@ -43,6 +43,13 @@ backend haproxy-report-backend
         http-request auth realm haproxyreport if !authorized
         server haproxy-report 127.0.0.1:1800
 ```
+
+**More about haproxy**
+- [How To Set HTTP-Request Header In Haproxy](https://dev.to/vumdao/how-to-set-http-request-header-in-haproxy-48bd)
+- [How To Block IP Addresses In HAProxy](https://dev.to/vumdao/how-to-block-ip-addresses-in-haproxy-3f84)
+- [HAProxy With Resolvers In Case Of AWS Application LoadBalancer](https://dev.to/vumdao/haproxy-with-resolvers-in-case-of-aws-application-loadbalancer-d1n)
+- [Use GoAccess To Analyze HAProxy Logs](https://dev.to/vumdao/use-goaccess-to-analyze-haproxy-logs-2m51)
+
 [Reference](https://www.haproxy.org/download/2.4/doc/configuration.txt)
 
 <h3 align="center">
